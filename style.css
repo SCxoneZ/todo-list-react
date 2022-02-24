@@ -47,6 +47,7 @@ body{
 }
 
 .container .cards .card{
+  margin-top: 10px;
   width: 100%;
   height: 80px;
   background-color: #B7B7B7;
@@ -64,17 +65,33 @@ body{
   margin-top: auto;
 }
 
-/* TODO:  CARI GAMBAR MASING MASING BUTTON (24 FEBRUARI 17:42)*/
 
 .container .cards .card .card-buttons button{
+  margin: 10px;
   border-radius: 5px;
   width: 30px;
   height: 30px;
   outline: none;
   border: none;
-  background-color: #D7DBFF;
   background-size: 80%;
   background-repeat: no-repeat;
   background-position: center;
+  transition: .3s;
   background-image: url();
+}
+
+.container .cards .card .card-buttons button.btn-done{
+  background-color: #5563FF;
+}
+
+.container .cards .card .card-buttons button.btn-delete{
+  background-color: #FF5555;
+}
+
+.container .cards .card .card-buttons button.btn-edit{
+  background-color: #FFCD55;
+}
+
+.container .cards .card .card-buttons button:hover{
+  opacity: 50%;
 }
