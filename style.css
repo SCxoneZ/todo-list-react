@@ -82,16 +82,29 @@ body{
 
 .container .cards .card .card-buttons button.btn-done{
   background-color: #5563FF;
+  background-image: url(img/check.png);
 }
 
 .container .cards .card .card-buttons button.btn-delete{
   background-color: #FF5555;
+  background-image: url(img/delete.png);
 }
 
 .container .cards .card .card-buttons button.btn-edit{
   background-color: #FFCD55;
+  background-image: url(img/edit.png);
 }
 
 .container .cards .card .card-buttons button:hover{
   opacity: 50%;
+}
+
+.container .cards .card .card-content{
+  position: relative;
+  top: 10px;
+  font-weight: bold;
+}
+
+.done{
+  text-decoration: line-through;
 }
